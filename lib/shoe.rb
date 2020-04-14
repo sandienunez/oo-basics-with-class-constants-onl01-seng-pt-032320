@@ -4,9 +4,11 @@ class Shoe
   
   BRANDS = ["Uggs", "Rainbow"]
 
-  def initialize(brand)
+ def initialize(brand)
     @brand = brand
+  BRANDS << brand unless WHAT_HERE? #unless the brand is already on BRANDS
   end
+  
 
   def cobble
     self.condition = "new"
