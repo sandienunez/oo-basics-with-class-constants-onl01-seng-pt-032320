@@ -6,7 +6,7 @@ class Shoe
 
  def initialize(brand)
     @brand = brand
-  BRANDS << brand unless WHAT_HERE? #unless the brand is already on BRANDS
+  BRANDS << brand #unless WHAT_HERE? #unless the brand is already on BRANDS
   end
   
 
