@@ -30,7 +30,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if !(BRANDS.include?(@brand))
+    if !BRANDS.include?(brand)
       BRANDS << @brand
     end
   end
@@ -42,3 +42,9 @@ class Shoe
   end
 
 end
+
+#if !BRANDS.include?(brand)
+  #    BRANDS << brand
+  #  end
+
+# if BRANDS does not include the brand then add it
